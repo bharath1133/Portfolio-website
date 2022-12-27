@@ -1,0 +1,397 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*==== header css start ====*/
+.header_area .menubar .navbar {
+    padding: 5px 0px;
+    /* background-color:aqua; */
+    width: 100%;
+    position: fixed;
+}
+
+.header_area .menubar .navbar-brand {
+    padding: 10px 0px;
+    margin-left: 20px;
+}
+
+.header_area .menubar .navbar .navbar-nav {
+    margin-left: auto;
+    float: right;
+}
+
+.navbar-nav .nav-item .active {
+    color: red;
+}
+
+.navbar-nav .nav-item a {
+    color: black;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: white;
+    background-color: black;
+    background-clip: content-box;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    font-size: 20px;
+}
+
+/*=== header css end ====*/
+
+/*====banner section css start ====*/
+.mainsite .bannersection {
+    background: url("../images/banner/home-banner.png");
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+    /* background-color:orange; */
+}
+
+.bannersection .sitetext {
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.bannersection .sitetext .call {
+    font-weight: 400;
+}
+
+.bannersection .sitetext h4::after {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    transform: translateY(5px)
+}
+
+.bannersection .sitetext .name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bannersection .sitetext .role {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner_button .banner_btn {
+    padding: 0px 10px;
+    margin: 5px 5px 0px 5px;
+    background: black;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    transition: background 2s;
+}
+
+.banner_button .banner_btn:hover {
+    background-color: blueviolet;
+}
+
+.banner_button .button {
+    padding: 0px 10px;
+    margin: 5px 5px 0px 5px;
+    background: white;
+    color: black;
+    outline: none;
+    border-radius: 5px;
+    transition: background 2s;
+}
+
+.banner_button .button:hover {
+    background-color: blueviolet;
+}
+
+.bannersection .img-fluid {
+    margin-top: 80px;
+    padding-top: 80ppx;
+    width: 400px;
+}
+
+/*====banner section css end ====*/
+
+/*====about section css start ====*/
+#aboutus .heading {
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline 2px brown;
+}
+
+#aboutus .about-img {
+    padding-left: 50px;
+    width: 400px;
+}
+
+#aboutus .myself {
+    padding-top: 30px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#aboutus .intro {
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+#aboutus .advice {
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+#aboutus .aboutbutton {
+    padding: 2px 8px;
+    text-transform: uppercase;
+    outline: none;
+    background: black;
+    color: aqua;
+    transition: background 2s;
+    margin-left: 30px;
+}
+
+#aboutus .aboutbutton:hover {
+    background: blueviolet;
+}
+
+/*====about section css end ====*/
+
+/*====brand section css start====*/
+.mainsite .heading {
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline 2px brown;
+}
+
+.brand_Area .row {
+    margin-top: 10px;
+}
+
+.brand_Area .row .col-xl-4 {
+    margin-left: 100px;
+}
+
+.brand_Area .first-row .brandimage {
+    padding-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.brand_Area .first-row .brandimage img {
+    box-shadow: 0px 0px 5px violet;
+    padding: 10px;
+    width: 120px;
+    height: 80px;
+    transition: 1s;
+}
+
+.brand_Area .first-row .brandimage img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.5);
+}
+
+.brand_Area .second-column {
+    padding-left: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: #e029290a;
+    height: 330px;
+}
+
+.brand_Area .second-column .experience {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand_Area .second-column .experience .years {
+    color: blueviolet;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.brand_Area .second-column .experience .work span {
+    margin-left: 5px;
+    text-transform: uppercase;
+    transform: translateY(10px);
+    font-weight: 600;
+    display: block;
+}
+
+.brand_Area .second-column .callnow {
+    padding-top: 50px;
+}
+
+.brand_Area .second-column .fa-phone {
+    font-size: 30px;
+}
+
+.brand_Area .second-column .callnow {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand_Area .second-column .callnow .phn {
+    margin-left: 10px;
+    color: blue;
+    text-decoration: underline;
+    font-style: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.brand_Area .second-column .callnow .phn:hover {
+    color: blueviolet;
+}
+
+/*====brand section css end ====*/
+
+/*====service section css start ====*/
+.mainsite .servicearea {
+    margin-top: 10px;
+}
+
+.servicearea .row .para {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.servicearea .row {
+    padding: 0px 150px;
+    margin-top: 20px;
+}
+
+.servicearea .servicelogos {
+    width: 200px;
+    background: rgba(248, 252, 253, 0.973);
+    transition: 0.7s;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.servicearea .serviceimage {
+    padding: 30px 60px;
+}
+
+.servicearea .servicelogos .content {
+    padding-top: 10px;
+}
+
+.servicearea .servicelogos .content h5 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.servicearea .servicelogos .content p {
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.servicearea .servicelogos:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+/*====service section css end ====*/
+
+/*====project section css start ====*/
+.mainsite .project-area {
+    margin: 40px 50px 10px 50px;
+}
+
+.mainsite .project-area h2 {
+    text-transform: uppercase;
+}
+
+.mainsite .project-area h3 {
+    text-transform: uppercase;
+}
+
+.project-area .projectdiv {
+    background: rgba(248, 252, 253, 0.973);
+}
+
+.project-area .projectdiv .projectimages {
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.project-area .projectdiv .projectimages:hover {
+    box-shadow: 0px opx 2px red;
+    filter: brightness(0.9);
+    transform: scale(0.8);
+}
+
+.project-area .projectdiv .projectheading {
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+/*====project section css end ====*/
+
+/* ==== subscribe section css start */
+.mainsite .subscribe-area {
+    margin-top: 20px;
+}
+
+.mainsite .subscribe-area .col-lg-12 {
+    background: url("../images/subscribe-bg.png");
+    padding-bottom: 30px;
+}
+
+.mainsite .subscribe-area .subscribe-theory {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.mainsite .subscribe-area .subscribe-theory .subscribe-heading {
+    text-transform: uppercase;
+}
+
+.mainsite .subscribe-area .subscribe-theory .para {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.mainsite .subscribe-area .subscribe-section {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.mainsite .subscribe-area .subscribe-section .mail {
+    width: 300px;
+    padding: 5px;
+}
+
+.mainsite .subscribe-area .subscribe-section .button {
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    background: whitesmoke;
+}
+
+/* ==== subscribe section css end */
+
+/* ==== footer css start */
+.footer-area {
+    margin-top: 20px;
+    background: url("../images/footer-bg.png");
+    background-color: aqua;
+}
+
+/* ==== footer css end */
